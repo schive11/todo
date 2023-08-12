@@ -1,0 +1,44 @@
+.header-container-light{
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url('../../images/bg-desktop-light.jpg');
+    width: 100%;
+    height: 300px;
+    position: absolute;
+}
+
+.header-container-dark{
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url('../../images/bg-desktop-dark.jpg');
+    width: 100%;
+    height: 300px;
+    position: absolute;
+}
+
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 541px;
+    height: 48px;
+    margin: 70px auto 182px;
+}
+
+.header h1{
+    font-size: 40px;
+    letter-spacing: 15px;
+    color: white;
+    font-weight: 700;
+}
+
+.header button{
+    border: none;
+    /* opacity: 0; */
+    background: none;
+}
+
+.header button:hover{
+    cursor: pointer;
+}
